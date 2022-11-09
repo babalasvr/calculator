@@ -5,7 +5,7 @@ import './Calculator.css'
 
 export default function Calculator() {
     const [ num, setNum ] = useState(0)
-    const [ numCalc, setNumCalc ] = useState(0)
+    const [ numCalca, setNumCalca ] = useState(0)
 
     function inputNum(e) {
         if( num === 0 ){
